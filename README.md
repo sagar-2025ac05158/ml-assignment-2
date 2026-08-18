@@ -111,7 +111,7 @@ project-folder/
 pip install -r requirements.txt
 
 # Regenerate all models + test_data.csv (optional, already included in repo):
-python model/run_all.py
+python model/train_models.py
 # ...or train/re-run a single model, e.g.:
 python model/random_forest.py
 
@@ -128,7 +128,7 @@ written into the shared `model/metrics_summary.csv`.
 
 ## Live App
 
-`<PASTE YOUR STREAMLIT COMMUNITY CLOUD LINK HERE AFTER DEPLOYMENT>`
+https://ml-assignment-2-sagar-2025ac05158.streamlit.app/
 
 ## Streamlit App Features
 
