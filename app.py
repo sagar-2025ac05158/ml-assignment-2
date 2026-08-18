@@ -69,7 +69,20 @@ scaler = load_scaler()
 feature_names = meta["feature_names"]
 target_names = meta["target_names"]  # ['stable', 'unstable'] -> encoded 0, 1
 
-st.title("⚡ Electrical Grid Stability — Model Demo")
+st.markdown(
+    '<p style="font-size:18px; color:#4CAF50;">'
+    'BITS WILP AIML - Machine Learning Assignment 2'
+    '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    'Name : Sagar Lambat'
+    '&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    'BITS ID: 2025ac05158'
+    '</p>',
+    unsafe_allow_html=True
+)
+
+st.title("⚡ Electrical Grid Stability Classifier")
+st.subheader("Machine Learning for Grid Stability Prediction")
+
 st.write(
     "Predicts whether a simulated 4-node smart electrical grid (Decentral "
     "Smart Grid Control) is **stable** or **unstable** from reaction-time, "
