@@ -53,7 +53,7 @@ Bayes were trained on standardized (scaled) features; Decision Tree and
 Random Forest were trained on raw features (tree-based splits are
 scale-invariant).
 
-### Comparison Table (evaluation metrics on the 20% held-out test split)
+### Comparison Table
 
 | ML Model Name | Accuracy | AUC | Precision | Recall | F1 | MCC |
 |---|---|---|---|---|---|---|
