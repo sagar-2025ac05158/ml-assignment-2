@@ -43,7 +43,7 @@ This is a **binary classification** problem (stable vs. unstable).
 
 ## c. GitHub Repository Link
 
-`<PASTE YOUR GITHUB REPO LINK HERE AFTER PUSHING>`
+https://github.com/sagar-2025ac05158/ml-assignment-2
 
 ## d. Models Used
 
